@@ -1,6 +1,6 @@
 {
-    "workspace": "GDExtensionVStudioTemplate",
+    "workspace": "GuerillaGames",
     "addon_root": "addons",
-    "addon_name": "GDExample",
-    "game_folder": "Game"
+    "addon_name": "DecimaEngine",
+    "game_folder": "Horizon_ForbiddenWest"
 }
