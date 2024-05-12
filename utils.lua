@@ -17,7 +17,7 @@ outsuffix = ".%{cfg.system}" ..
          ".%{archsuffix[cfg.architecture]}"
 
 --Location of our addon directory (*.gdextension file)--
-addon_path = (settings.addon_root .. "/" .. settings.addon_name)
+addon_path = (settings.game_folder .. "/" .. settings.addon_root .. "/" .. settings.addon_name)
 
 --Addon validation--
 ValidateAddon = function()

@@ -1,5 +1,6 @@
 {
     "workspace": "GDExtensionVStudioTemplate",
     "addon_root": "addons",
-    "addon_name": "GDExample"
+    "addon_name": "GDExample",
+    "game_folder": "Game"
 }

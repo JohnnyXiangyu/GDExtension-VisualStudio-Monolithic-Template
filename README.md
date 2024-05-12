@@ -2,6 +2,13 @@
 GDExtension template for Microsoft Visual Studio. (Windows Only)
 
 
+## Monolithic Project Specific
+Different from the brilliant [original template](https://github.com/JustinGdnz/GDExtensionVStudioTemplate), this template aims to build your extension directly into the game folder and to have them share a repository monolithically, so that one can emulate the experience of developing a game with both low-level language and high-level script.
+
+For this reason, a fourth field is added to addonsettings.json, "game_folder", which should be the direct parent directory where your project.godot file sits for the game itself. The generated lua scripts are changed to direct visual studio to output the built extension files into (game_folder)/addons/(addon_name)/bin.
+
+Don't forget to modify your gdextension file after setting up.
+
 ## Getting Started
 Before continuing it's recommended to have VS2022 installed as well as [Python 3.6+](https://www.python.org/downloads/windows/) and [SCons 3.0+](https://pypi.org/project/SCons/).
 
